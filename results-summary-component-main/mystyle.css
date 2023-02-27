@@ -1,0 +1,154 @@
+
+
+#result {
+    background-color: hsl(252, 100%, 67%);
+    text-align: center;
+    width: 40vw;
+    height: 50vh;
+    padding: 20px;
+    border: 2px hsla(256, 72%, 46%, 1);
+    border-radius: 25px;
+    height: 500px;
+    position:relative;
+    margin-top: 10%;
+    margin-left: 10%;
+  
+ 
+}
+
+#summary {
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 10%;
+    width: 40vw;
+    height: 50vh;
+    padding:20px;
+    box-shadow: 10px 10px 5px hsl(221, 100%, 96%);
+    border-radius: 25px;
+    height: 50%;
+    position: relative;
+ 
+}
+
+
+#result h2 {
+    color:  hsl(241, 100%, 89%);
+    margin-top: 50px;
+}
+
+#summary h2 {
+    color: hsl(224, 30%, 27%);
+    text-align: center;
+}
+
+ table th tr {  
+
+    border-radius: 25px;
+    text-align: left;
+    
+  
+  }
+  
+  table {
+    
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  
+ table tr th {
+  border: 3px solid #ddd;
+  border-radius: 25px;
+    padding: 15px;
+    margin: 10px;
+  }
+
+.circul {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-color: hsla(256, 72%, 46%, 1);
+  background: linear-gradient(hsla(256, 72%, 46%, 1),60%,hsl(252, 100%, 67%));
+  position:absolute;
+  top:50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -100px;
+  
+}
+
+.circul h1 {
+  margin-top: 60px;
+  font-size: 60px;
+  margin-bottom: -20px;
+  color: hsl(221, 100%, 96%);
+}
+
+.circul p {
+  color: hsl(224, 30%, 27%);
+}
+
+#bottomcontent {
+  width: 50%;
+  height: 300px;
+  position:absolute;
+  left: 50%;
+  margin-left: -25%;
+  margin-top: 230px;
+  padding: 0;
+}
+
+#bottomcontent h1,p{
+  color:hsl(221, 100%, 96%) ;
+}
+
+
+
+.button {
+  padding:20px;
+  width: 100%;
+  border:none;
+  background-color: hsl(252, 100%, 67%);
+  border-radius: 30px;
+  font-size: 15px;
+  color: hsl(221, 100%, 96%);
+  margin-bottom: 40px;
+}
+
+.button:hover {background-color: hsla(256, 72%, 46%, 1)}
+
+.button:active {
+  background-color: hsla(256, 72%, 46%, 1);
+  box-shadow: 0 3px hsl(224, 30%, 27%);
+  transform: translateY(4px);
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: hsl(252, 100%, 67%);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+
+@media screen and (max-width:943px) {
+  #result {
+    width: 80%;
+    
+  }
+  #summary {
+    margin-left: 10%;
+    
+    width: 80%;
+  }
+  footer {
+    display: none;
+  }
+}
+
+
+
+
+
